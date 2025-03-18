@@ -1,0 +1,6 @@
+/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/read_dataset_images.dir
+/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/read_dataset_labels.dir
+/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/mnist.dir
+/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/test.dir
+/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/edit_cache.dir
+/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/rebuild_cache.dir
