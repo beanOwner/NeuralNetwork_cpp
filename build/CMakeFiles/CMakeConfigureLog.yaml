@@ -1,0 +1,2039 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 24.3.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'System' not found
+      cc: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'c++' not found
+      c++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5tYZId"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5tYZId"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5tYZId'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b4829/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b4829.dir/build.make CMakeFiles/cmTC_b4829.dir/build
+        Building C object CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        cc: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5tYZId" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5tYZId" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_b4829
+        /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4829.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o -o cmTC_b4829
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b4829 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+        BUILD 23:52:02 Dec  5 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/16/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/16/include;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5tYZId']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b4829/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b4829.dir/build.make CMakeFiles/cmTC_b4829.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+        ignore line: [Target: arm64-apple-darwin24.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [cc: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5tYZId" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5tYZId" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_b4829]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4829.dir/link.txt --verbose=1]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o -o cmTC_b4829]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+        ignore line: [Target: arm64-apple-darwin24.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b4829 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b4829] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_b4829.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+      BUILD 23:52:02 Dec  5 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-n3vau8"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-n3vau8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-n3vau8'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_396a4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_396a4.dir/build.make CMakeFiles/cmTC_396a4.dir/build
+        Building CXX object CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        c++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-n3vau8" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-n3vau8" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_396a4
+        /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_396a4.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_396a4
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_396a4 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+        BUILD 23:52:02 Dec  5 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/16/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/16/include;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-n3vau8']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_396a4/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_396a4.dir/build.make CMakeFiles/cmTC_396a4.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+        ignore line: [Target: arm64-apple-darwin24.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [c++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-n3vau8" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-n3vau8" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/16/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_396a4]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_link_script CMakeFiles/cmTC_396a4.dir/link.txt --verbose=1]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_396a4]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+        ignore line: [Target: arm64-apple-darwin24.3.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_396a4 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_396a4] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_396a4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+      BUILD 23:52:02 Dec  5 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-NA8B7c"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-NA8B7c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-NA8B7c'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_73710/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_73710.dir/build.make CMakeFiles/cmTC_73710.dir/build
+        Building C object CMakeFiles/cmTC_73710.dir/OpenMPTryFlag.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xclang -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_73710.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_73710.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_73710.dir/OpenMPTryFlag.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-NA8B7c/OpenMPTryFlag.c"
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-NA8B7c" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_73710.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_73710.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-NA8B7c" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_73710.dir/OpenMPTryFlag.c.o -x c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-NA8B7c/OpenMPTryFlag.c"
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-NA8B7c/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_73710.dir/OpenMPTryFlag.c.o] Error 1
+        make: *** [cmTC_73710/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-7PcJtg"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-7PcJtg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-7PcJtg'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f26dc/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f26dc.dir/build.make CMakeFiles/cmTC_f26dc.dir/build
+        Building CXX object CMakeFiles/cmTC_f26dc.dir/OpenMPTryFlag.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xclang -fopenmp -v -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_f26dc.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_f26dc.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_f26dc.dir/OpenMPTryFlag.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-7PcJtg/OpenMPTryFlag.cpp"
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-7PcJtg" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_f26dc.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f26dc.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu++14 -fdeprecated-macro "-fdebug-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-7PcJtg" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f26dc.dir/OpenMPTryFlag.cpp.o -x c++ "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-7PcJtg/OpenMPTryFlag.cpp"
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-7PcJtg/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_f26dc.dir/OpenMPTryFlag.cpp.o] Error 1
+        make: *** [cmTC_f26dc/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-rcZjYV"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-rcZjYV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-rcZjYV'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e3087/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e3087.dir/build.make CMakeFiles/cmTC_e3087.dir/build
+        Building C object CMakeFiles/cmTC_e3087.dir/OpenMPTryFlag.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xclang -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_e3087.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_e3087.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_e3087.dir/OpenMPTryFlag.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-rcZjYV/OpenMPTryFlag.c"
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-rcZjYV" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_e3087.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e3087.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-rcZjYV" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e3087.dir/OpenMPTryFlag.c.o -x c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-rcZjYV/OpenMPTryFlag.c"
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-rcZjYV/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_e3087.dir/OpenMPTryFlag.c.o] Error 1
+        make: *** [cmTC_e3087/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-DBse7t"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-DBse7t"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-DBse7t'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bab56/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bab56.dir/build.make CMakeFiles/cmTC_bab56.dir/build
+        Building CXX object CMakeFiles/cmTC_bab56.dir/OpenMPTryFlag.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xclang -fopenmp -v -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_bab56.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_bab56.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_bab56.dir/OpenMPTryFlag.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-DBse7t/OpenMPTryFlag.cpp"
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-DBse7t" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_bab56.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_bab56.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu++14 -fdeprecated-macro "-fdebug-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-DBse7t" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bab56.dir/OpenMPTryFlag.cpp.o -x c++ "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-DBse7t/OpenMPTryFlag.cpp"
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-DBse7t/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_bab56.dir/OpenMPTryFlag.cpp.o] Error 1
+        make: *** [cmTC_bab56/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-BMAvFm"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-BMAvFm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-BMAvFm'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7b8ca/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7b8ca.dir/build.make CMakeFiles/cmTC_7b8ca.dir/build
+        Building C object CMakeFiles/cmTC_7b8ca.dir/OpenMPTryFlag.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xclang -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_7b8ca.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_7b8ca.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_7b8ca.dir/OpenMPTryFlag.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-BMAvFm/OpenMPTryFlag.c"
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-BMAvFm" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_7b8ca.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7b8ca.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-BMAvFm" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7b8ca.dir/OpenMPTryFlag.c.o -x c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-BMAvFm/OpenMPTryFlag.c"
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-BMAvFm/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_7b8ca.dir/OpenMPTryFlag.c.o] Error 1
+        make: *** [cmTC_7b8ca/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-wLriEw"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-wLriEw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-wLriEw'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_026a7/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_026a7.dir/build.make CMakeFiles/cmTC_026a7.dir/build
+        Building CXX object CMakeFiles/cmTC_026a7.dir/OpenMPTryFlag.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xclang -fopenmp -v -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_026a7.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_026a7.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_026a7.dir/OpenMPTryFlag.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-wLriEw/OpenMPTryFlag.cpp"
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-wLriEw" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_026a7.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_026a7.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu++14 -fdeprecated-macro "-fdebug-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-wLriEw" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_026a7.dir/OpenMPTryFlag.cpp.o -x c++ "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-wLriEw/OpenMPTryFlag.cpp"
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-wLriEw/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_026a7.dir/OpenMPTryFlag.cpp.o] Error 1
+        make: *** [cmTC_026a7/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-lxhb1p"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-lxhb1p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-lxhb1p'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_45be5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_45be5.dir/build.make CMakeFiles/cmTC_45be5.dir/build
+        Building C object CMakeFiles/cmTC_45be5.dir/OpenMPTryFlag.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xclang -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_45be5.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_45be5.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_45be5.dir/OpenMPTryFlag.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-lxhb1p/OpenMPTryFlag.c"
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-lxhb1p" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_45be5.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_45be5.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-lxhb1p" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_45be5.dir/OpenMPTryFlag.c.o -x c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-lxhb1p/OpenMPTryFlag.c"
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-lxhb1p/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_45be5.dir/OpenMPTryFlag.c.o] Error 1
+        make: *** [cmTC_45be5/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-6E3mQS"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-6E3mQS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-6E3mQS'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f7b17/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f7b17.dir/build.make CMakeFiles/cmTC_f7b17.dir/build
+        Building CXX object CMakeFiles/cmTC_f7b17.dir/OpenMPTryFlag.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xclang -fopenmp -v -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_f7b17.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_f7b17.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_f7b17.dir/OpenMPTryFlag.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-6E3mQS/OpenMPTryFlag.cpp"
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-6E3mQS" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_f7b17.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f7b17.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu++14 -fdeprecated-macro "-fdebug-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-6E3mQS" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f7b17.dir/OpenMPTryFlag.cpp.o -x c++ "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-6E3mQS/OpenMPTryFlag.cpp"
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-6E3mQS/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_f7b17.dir/OpenMPTryFlag.cpp.o] Error 1
+        make: *** [cmTC_f7b17/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-48y9p9"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-48y9p9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-48y9p9'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_613b2/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_613b2.dir/build.make CMakeFiles/cmTC_613b2.dir/build
+        Building C object CMakeFiles/cmTC_613b2.dir/OpenMPTryFlag.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xclang -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_613b2.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_613b2.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_613b2.dir/OpenMPTryFlag.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-48y9p9/OpenMPTryFlag.c"
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-48y9p9" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_613b2.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_613b2.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-48y9p9" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_613b2.dir/OpenMPTryFlag.c.o -x c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-48y9p9/OpenMPTryFlag.c"
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-48y9p9/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_613b2.dir/OpenMPTryFlag.c.o] Error 1
+        make: *** [cmTC_613b2/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-ydko5O"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-ydko5O"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-ydko5O'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_16967/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_16967.dir/build.make CMakeFiles/cmTC_16967.dir/build
+        Building CXX object CMakeFiles/cmTC_16967.dir/OpenMPTryFlag.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xclang -fopenmp -v -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_16967.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_16967.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_16967.dir/OpenMPTryFlag.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-ydko5O/OpenMPTryFlag.cpp"
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.3.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v "-fcoverage-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-ydko5O" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_16967.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_16967.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -std=gnu++14 -fdeprecated-macro "-fdebug-compilation-dir=/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-ydko5O" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_16967.dir/OpenMPTryFlag.cpp.o -x c++ "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-ydko5O/OpenMPTryFlag.cpp"
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.3.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/16/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-ydko5O/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_16967.dir/OpenMPTryFlag.cpp.o] Error 1
+        make: *** [cmTC_16967/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-XRbCdI"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-XRbCdI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-XRbCdI'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8baa5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8baa5.dir/build.make CMakeFiles/cmTC_8baa5.dir/build
+        Building C object CMakeFiles/cmTC_8baa5.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_8baa5.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_8baa5.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_8baa5.dir/OpenMPCheckVersion.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-XRbCdI/OpenMPCheckVersion.c"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-XRbCdI/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_8baa5.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_8baa5/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-VxW76M"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-VxW76M"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-VxW76M'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6f7d8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6f7d8.dir/build.make CMakeFiles/cmTC_6f7d8.dir/build
+        Building CXX object CMakeFiles/cmTC_6f7d8.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_6f7d8.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_6f7d8.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_6f7d8.dir/OpenMPCheckVersion.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-VxW76M/OpenMPCheckVersion.cpp"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-VxW76M/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_6f7d8.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_6f7d8/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-2h49yB"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-2h49yB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-2h49yB'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_39f75/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_39f75.dir/build.make CMakeFiles/cmTC_39f75.dir/build
+        Building C object CMakeFiles/cmTC_39f75.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_39f75.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_39f75.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_39f75.dir/OpenMPCheckVersion.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-2h49yB/OpenMPCheckVersion.c"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-2h49yB/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_39f75.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_39f75/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-1HSCLO"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-1HSCLO"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-1HSCLO'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4b51e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4b51e.dir/build.make CMakeFiles/cmTC_4b51e.dir/build
+        Building CXX object CMakeFiles/cmTC_4b51e.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_4b51e.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_4b51e.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_4b51e.dir/OpenMPCheckVersion.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-1HSCLO/OpenMPCheckVersion.cpp"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-1HSCLO/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_4b51e.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_4b51e/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-AFfGdf"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-AFfGdf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-AFfGdf'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a5746/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a5746.dir/build.make CMakeFiles/cmTC_a5746.dir/build
+        Building C object CMakeFiles/cmTC_a5746.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_a5746.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_a5746.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_a5746.dir/OpenMPCheckVersion.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-AFfGdf/OpenMPCheckVersion.c"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-AFfGdf/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_a5746.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_a5746/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-XpXTE5"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-XpXTE5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-XpXTE5'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_193a2/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_193a2.dir/build.make CMakeFiles/cmTC_193a2.dir/build
+        Building CXX object CMakeFiles/cmTC_193a2.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_193a2.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_193a2.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_193a2.dir/OpenMPCheckVersion.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-XpXTE5/OpenMPCheckVersion.cpp"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-XpXTE5/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_193a2.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_193a2/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-yh0MT8"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-yh0MT8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-yh0MT8'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a1b81/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a1b81.dir/build.make CMakeFiles/cmTC_a1b81.dir/build
+        Building C object CMakeFiles/cmTC_a1b81.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_a1b81.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_a1b81.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_a1b81.dir/OpenMPCheckVersion.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-yh0MT8/OpenMPCheckVersion.c"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-yh0MT8/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_a1b81.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_a1b81/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-yQdtZE"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-yQdtZE"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-yQdtZE'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e2806/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e2806.dir/build.make CMakeFiles/cmTC_e2806.dir/build
+        Building CXX object CMakeFiles/cmTC_e2806.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_e2806.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_e2806.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_e2806.dir/OpenMPCheckVersion.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-yQdtZE/OpenMPCheckVersion.cpp"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-yQdtZE/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_e2806.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_e2806/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-O8SSOy"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-O8SSOy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-O8SSOy'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_24e8a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_24e8a.dir/build.make CMakeFiles/cmTC_24e8a.dir/build
+        Building C object CMakeFiles/cmTC_24e8a.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_24e8a.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_24e8a.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_24e8a.dir/OpenMPCheckVersion.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-O8SSOy/OpenMPCheckVersion.c"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-O8SSOy/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_24e8a.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_24e8a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-NFrDCs"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-NFrDCs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-NFrDCs'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f59af/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f59af.dir/build.make CMakeFiles/cmTC_f59af.dir/build
+        Building CXX object CMakeFiles/cmTC_f59af.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_f59af.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_f59af.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_f59af.dir/OpenMPCheckVersion.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-NFrDCs/OpenMPCheckVersion.cpp"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-NFrDCs/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_f59af.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_f59af/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5wdc53"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5wdc53"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5wdc53'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_96638/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_96638.dir/build.make CMakeFiles/cmTC_96638.dir/build
+        Building C object CMakeFiles/cmTC_96638.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_96638.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_96638.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_96638.dir/OpenMPCheckVersion.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5wdc53/OpenMPCheckVersion.c"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5wdc53/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_96638.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_96638/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-pmbtT2"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-pmbtT2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-pmbtT2'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aa9d7/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aa9d7.dir/build.make CMakeFiles/cmTC_aa9d7.dir/build
+        Building CXX object CMakeFiles/cmTC_aa9d7.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_aa9d7.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_aa9d7.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_aa9d7.dir/OpenMPCheckVersion.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-pmbtT2/OpenMPCheckVersion.cpp"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-pmbtT2/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_aa9d7.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_aa9d7/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-qq2oI2"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-qq2oI2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-qq2oI2'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_35d81/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_35d81.dir/build.make CMakeFiles/cmTC_35d81.dir/build
+        Building C object CMakeFiles/cmTC_35d81.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_35d81.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_35d81.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_35d81.dir/OpenMPCheckVersion.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-qq2oI2/OpenMPCheckVersion.c"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-qq2oI2/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_35d81.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_35d81/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-rVCmrj"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-rVCmrj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-rVCmrj'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6b8c1/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6b8c1.dir/build.make CMakeFiles/cmTC_6b8c1.dir/build
+        Building CXX object CMakeFiles/cmTC_6b8c1.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_6b8c1.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_6b8c1.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_6b8c1.dir/OpenMPCheckVersion.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-rVCmrj/OpenMPCheckVersion.cpp"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-rVCmrj/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_6b8c1.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_6b8c1/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-nheJ8N"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-nheJ8N"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-nheJ8N'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_67ed8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_67ed8.dir/build.make CMakeFiles/cmTC_67ed8.dir/build
+        Building C object CMakeFiles/cmTC_67ed8.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_67ed8.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_67ed8.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_67ed8.dir/OpenMPCheckVersion.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-nheJ8N/OpenMPCheckVersion.c"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-nheJ8N/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_67ed8.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_67ed8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-gBFEjN"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-gBFEjN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-gBFEjN'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d4abd/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d4abd.dir/build.make CMakeFiles/cmTC_d4abd.dir/build
+        Building CXX object CMakeFiles/cmTC_d4abd.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_d4abd.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_d4abd.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_d4abd.dir/OpenMPCheckVersion.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-gBFEjN/OpenMPCheckVersion.cpp"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-gBFEjN/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_d4abd.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_d4abd/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5LENOv"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5LENOv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5LENOv'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f4687/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f4687.dir/build.make CMakeFiles/cmTC_f4687.dir/build
+        Building C object CMakeFiles/cmTC_f4687.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_f4687.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_f4687.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_f4687.dir/OpenMPCheckVersion.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5LENOv/OpenMPCheckVersion.c"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-5LENOv/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_f4687.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_f4687/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-1UbsMi"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-1UbsMi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-1UbsMi'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_85be7/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_85be7.dir/build.make CMakeFiles/cmTC_85be7.dir/build
+        Building CXX object CMakeFiles/cmTC_85be7.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_85be7.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_85be7.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_85be7.dir/OpenMPCheckVersion.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-1UbsMi/OpenMPCheckVersion.cpp"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-1UbsMi/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_85be7.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_85be7/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-CQurXv"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-CQurXv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-CQurXv'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_448ed/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_448ed.dir/build.make CMakeFiles/cmTC_448ed.dir/build
+        Building C object CMakeFiles/cmTC_448ed.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_448ed.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_448ed.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_448ed.dir/OpenMPCheckVersion.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-CQurXv/OpenMPCheckVersion.c"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-CQurXv/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_448ed.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_448ed/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-IhBD6L"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-IhBD6L"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-IhBD6L'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c97c8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c97c8.dir/build.make CMakeFiles/cmTC_c97c8.dir/build
+        Building CXX object CMakeFiles/cmTC_c97c8.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_c97c8.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_c97c8.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_c97c8.dir/OpenMPCheckVersion.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-IhBD6L/OpenMPCheckVersion.cpp"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-IhBD6L/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_c97c8.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_c97c8/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-fRO28x"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-fRO28x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-fRO28x'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f1682/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f1682.dir/build.make CMakeFiles/cmTC_f1682.dir/build
+        Building C object CMakeFiles/cmTC_f1682.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_f1682.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_f1682.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_f1682.dir/OpenMPCheckVersion.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-fRO28x/OpenMPCheckVersion.c"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-fRO28x/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_f1682.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_f1682/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-b5ZCDY"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-b5ZCDY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-b5ZCDY'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_264d9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_264d9.dir/build.make CMakeFiles/cmTC_264d9.dir/build
+        Building CXX object CMakeFiles/cmTC_264d9.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_264d9.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_264d9.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_264d9.dir/OpenMPCheckVersion.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-b5ZCDY/OpenMPCheckVersion.cpp"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-b5ZCDY/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_264d9.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_264d9/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-3Kk5H9"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-3Kk5H9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-3Kk5H9'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cc2a0/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cc2a0.dir/build.make CMakeFiles/cmTC_cc2a0.dir/build
+        Building C object CMakeFiles/cmTC_cc2a0.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_cc2a0.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_cc2a0.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_cc2a0.dir/OpenMPCheckVersion.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-3Kk5H9/OpenMPCheckVersion.c"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-3Kk5H9/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_cc2a0.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_cc2a0/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-Fgevye"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-Fgevye"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-Fgevye'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_25a53/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_25a53.dir/build.make CMakeFiles/cmTC_25a53.dir/build
+        Building CXX object CMakeFiles/cmTC_25a53.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_25a53.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_25a53.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_25a53.dir/OpenMPCheckVersion.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-Fgevye/OpenMPCheckVersion.cpp"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-Fgevye/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_25a53.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_25a53/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-G6UgFr"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-G6UgFr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-G6UgFr'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_898d7/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_898d7.dir/build.make CMakeFiles/cmTC_898d7.dir/build
+        Building C object CMakeFiles/cmTC_898d7.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_898d7.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_898d7.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_898d7.dir/OpenMPCheckVersion.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-G6UgFr/OpenMPCheckVersion.c"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-G6UgFr/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_898d7.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_898d7/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-raAGrd"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-raAGrd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-raAGrd'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_48272/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_48272.dir/build.make CMakeFiles/cmTC_48272.dir/build
+        Building CXX object CMakeFiles/cmTC_48272.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_48272.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_48272.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_48272.dir/OpenMPCheckVersion.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-raAGrd/OpenMPCheckVersion.cpp"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-raAGrd/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_48272.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_48272/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-RcXlaf"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-RcXlaf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-RcXlaf'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2854d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2854d.dir/build.make CMakeFiles/cmTC_2854d.dir/build
+        Building C object CMakeFiles/cmTC_2854d.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Xpreprocessor -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_2854d.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_2854d.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_2854d.dir/OpenMPCheckVersion.c.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-RcXlaf/OpenMPCheckVersion.c"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-RcXlaf/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_2854d.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_2854d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-BJNDYz"
+      binary: "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-BJNDYz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-BJNDYz'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_65006/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_65006.dir/build.make CMakeFiles/cmTC_65006.dir/build
+        Building CXX object CMakeFiles/cmTC_65006.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_65006.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_65006.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_65006.dir/OpenMPCheckVersion.cpp.o -c "/Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-BJNDYz/OpenMPCheckVersion.cpp"
+        /Users/mohammad/Desktop/untitled folder/ws2024-group-23-bean/build/CMakeFiles/CMakeScratch/TryCompile-BJNDYz/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_65006.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_65006/fast] Error 2
+        
+      exitCode: 2
+...
